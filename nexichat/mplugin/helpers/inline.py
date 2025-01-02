@@ -68,15 +68,15 @@ CLOSE_BTN = [
 
 CHATBOT_ON = [
     [
-        InlineKeyboardButton(text="ᴇɴᴀʙʟᴇ", callback_data="enable_chatbot"),
-        InlineKeyboardButton(text="ᴅɪsᴀʙʟᴇ", callback_data="disable_chatbot"),
+        InlineKeyboardButton(text="˹ εɳαɓʟε ˼", callback_data="enable_chatbot"),
+        InlineKeyboardButton(text="˹ ᴅɪѕαʙʟε ˼", callback_data="disable_chatbot"),
     ],
 ]
 
 
 MUSIC_BACK_BTN = [
     [
-        InlineKeyboardButton(text="sᴏᴏɴ", callback_data=f"soom"),
+        InlineKeyboardButton(text="˹ sᴏᴏɴ ˼", callback_data=f"soom"),
     ],
 ]
 
@@ -98,7 +98,7 @@ CHATBOT_BACK = [
 
 HELP_START = [
     [
-        InlineKeyboardButton(text="« ʜᴇʟᴘ »", callback_data="HELP"),
+        InlineKeyboardButton(text="˹ ʜєʟᴘ ᴧηᴅ ᴄσϻϻᴧηᴅ ˼", callback_data="HELP"),
         InlineKeyboardButton(text="⌯ ᴄʟσsє ⌯", callback_data="CLOSE"),
     ],
 ]
@@ -106,7 +106,7 @@ HELP_START = [
 
 HELP_BUTN = [
     [
-        InlineKeyboardButton(text="« ғᴇᴀᴛᴜʀᴇs »", callback_data="HELP"),
+        InlineKeyboardButton(text="˹ ғᴇᴀᴛᴜʀᴇs ˼", callback_data="HELP"),
     ],
     [
         InlineKeyboardButton(text="⌯ ᴄʟσsє ⌯", callback_data="CLOSE"),
@@ -116,15 +116,15 @@ HELP_BUTN = [
 
 ABOUT_BTN = [
     [
-        InlineKeyboardButton(text="🎄 sᴜᴘᴘᴏʀᴛ 🎄", url=f"https://t.me/{SUPPORT_GRP}"),
-        InlineKeyboardButton(text="« ʜᴇʟᴘ »", callback_data="HELP"),
+        InlineKeyboardButton(text="˹ sυᴘᴘσʀᴛ ˼", url=f"https://t.me/{SUPPORT_GRP}"),
+        InlineKeyboardButton(text="˹ ʜєʟᴘ ᴧηᴅ ᴄσϻϻᴧηᴅ ˼", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="🍾 ᴏᴡɴᴇʀ 🍾", user_id=OWNER),
-        #   InlineKeyboardButton(text="❄️ sᴏᴜʀᴄᴇ ❄️", callback_data="SOURCE"),
+        InlineKeyboardButton(text="˹ ᴅєᴠ ˼", user_id=OWNER),
+        #   InlineKeyboardButton(text="˹ ʀєᴘσ ˼", callback_data="SOURCE"),
     ],
     [
-        InlineKeyboardButton(text="🐳 ᴜᴘᴅᴀᴛᴇs 🐳", url=f"https://t.me/{UPDATE_CHNL}"),
-        InlineKeyboardButton(text="⦿ ʙᴀᴄᴋ ⦿", callback_data="BACK"),
+        InlineKeyboardButton(text="˹ υᴘᴅᴧᴛєs ˼", url=f"https://t.me/{UPDATE_CHNL}"),
+        InlineKeyboardButton(text="⌯ ʙαck ⌯", callback_data="BACK"),
     ],
 ]
