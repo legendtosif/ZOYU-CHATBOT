@@ -7,7 +7,7 @@ from nexichat import OWNER, nexichat
 START_BOT = [
     
     [
-        InlineKeyboardButton(text="🛠️ σρεи ¢σммαиdꜱ ⚙️", callback_data="HELP"),
+        InlineKeyboardButton(text="˹ ʜєʟᴘ ᴧηᴅ ᴄσϻϻᴧηᴅ | ᴍσʀє ɪηғσ ˼", callback_data="HELP"),
     ],
 ]
 
@@ -15,26 +15,26 @@ START_BOT = [
 DEV_OP = [
     [
         InlineKeyboardButton(
-            text="✦ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ✦",
+            text="✙ ʌᴅᴅ ϻє ɪη ʏσυʀ ɢʀσυᴘ ✙",
             url=f"https://t.me/{nexichat.username}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="« ʜᴇʟᴘ »", callback_data="HELP"),
+        InlineKeyboardButton(text="˹ нєℓρ ˼", callback_data="HELP"),
     ],
     [
-        # InlineKeyboardButton(text="❄️ sᴏᴜʀᴄᴇ ❄️", callback_data="SOURCE"),
-        InlineKeyboardButton(text="☁️ ᴀʙᴏᴜᴛ ☁️", callback_data="ABOUT"),
+        # InlineKeyboardButton(text="˹ ʀєᴘσ ˼", callback_data="SOURCE"),
+        InlineKeyboardButton(text="˹ αɓσµƭ ˼", callback_data="ABOUT"),
     ],
 ]
 
 PNG_BTN = [
     [
-        InlineKeyboardButton(text="🛠️ σρεи ¢σммαиdꜱ ⚙️", callback_data="HELP"),
+        InlineKeyboardButton(text="˹ σρεɳ ᴄσϻϻᴧηᴅ | ᴍσʀє ɪηғσ ˼", callback_data="HELP"),
     ],
     [
         InlineKeyboardButton(
-            text="⦿ ᴄʟᴏsᴇ ⦿",
+            text="⌯ ᴄʟσsє ⌯",
             callback_data="CLOSE",
         ),
     ],
@@ -43,25 +43,25 @@ PNG_BTN = [
 
 BACK = [
     [
-        InlineKeyboardButton(text="⦿ ʙᴀᴄᴋ ⦿", callback_data="BACK"),
+        InlineKeyboardButton(text="⌯ ʙαck ⌯", callback_data="BACK"),
     ],
 ]
 
 
 HELP_BTN = [
     [
-        InlineKeyboardButton(text="🐳 ᴄʜᴀᴛʙᴏᴛ 🐳", callback_data="CHATBOT_CMD"),
-        InlineKeyboardButton(text="🎄 ᴛᴏᴏʟs 🎄", callback_data="TOOLS_DATA"),
+        InlineKeyboardButton(text="˹ cнαƭʙοƭ ˼", callback_data="CHATBOT_CMD"),
+        InlineKeyboardButton(text="˹ ᴛσσʟs ˼", callback_data="TOOLS_DATA"),
     ],
     [
-        InlineKeyboardButton(text="⦿ ᴄʟᴏsᴇ ⦿", callback_data="CLOSE"),
+        InlineKeyboardButton(text="⌯ ᴄʟσsє ⌯", callback_data="CLOSE"),
     ],
 ]
 
 
 CLOSE_BTN = [
     [
-        InlineKeyboardButton(text="⦿ ᴄʟᴏsᴇ ⦿", callback_data="CLOSE"),
+        InlineKeyboardButton(text="⌯ ᴄʟσsє ⌯", callback_data="CLOSE"),
     ],
 ]
 
@@ -82,16 +82,16 @@ MUSIC_BACK_BTN = [
 
 S_BACK = [
     [
-        InlineKeyboardButton(text="⦿ ʙᴀᴄᴋ ⦿", callback_data="SBACK"),
-        InlineKeyboardButton(text="⦿ ᴄʟᴏsᴇ ⦿", callback_data="CLOSE"),
+        InlineKeyboardButton(text="⌯ ʙαck ⌯", callback_data="SBACK"),
+        InlineKeyboardButton(text="⌯ ᴄʟσsє ⌯", callback_data="CLOSE"),
     ],
 ]
 
 
 CHATBOT_BACK = [
     [
-        InlineKeyboardButton(text="⦿ ʙᴀᴄᴋ ⦿", callback_data="CHATBOT_BACK"),
-        InlineKeyboardButton(text="⦿ ᴄʟᴏsᴇ ⦿", callback_data="CLOSE"),
+        InlineKeyboardButton(text="⌯ ʙαck ⌯", callback_data="CHATBOT_BACK"),
+        InlineKeyboardButton(text="⌯ ᴄʟσsє ⌯", callback_data="CLOSE"),
     ],
 ]
 
@@ -99,7 +99,7 @@ CHATBOT_BACK = [
 HELP_START = [
     [
         InlineKeyboardButton(text="« ʜᴇʟᴘ »", callback_data="HELP"),
-        InlineKeyboardButton(text="🐳 ᴄʟᴏsᴇ 🐳", callback_data="CLOSE"),
+        InlineKeyboardButton(text="⌯ ᴄʟσsє ⌯", callback_data="CLOSE"),
     ],
 ]
 
@@ -109,7 +109,7 @@ HELP_BUTN = [
         InlineKeyboardButton(text="« ғᴇᴀᴛᴜʀᴇs »", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="⦿ ᴄʟᴏsᴇ ⦿", callback_data="CLOSE"),
+        InlineKeyboardButton(text="⌯ ᴄʟσsє ⌯", callback_data="CLOSE"),
     ],
 ]
 
